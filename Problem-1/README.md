@@ -1,25 +1,25 @@
-# 🚀 Lift Passenger Problem - SQL Solution
+#  Lift Passenger Problem - SQL Solution
 
-## 📝 Problem Statement:
+##  Problem Statement:
 The relationship between the **LIFT** and **LIFT_PASSENGERS** tables is such that multiple passengers can attempt to enter the same lift, but the total weight of the passengers in a lift cannot exceed the lift’s capacity.
 
 ### Task:
 Write a SQL query that produces a **comma-separated list of passengers** who can be accommodated in each lift without exceeding the lift's capacity.  
 The passengers in the list should be ordered by their weight in increasing order.
 
-✅ You can assume the weights of passengers are unique within each lift.
+ You can assume the weights of passengers are unique within each lift.
 
 ---
 
-## 📊 Dataset:
+##  Dataset:
 
-### 🚪 LIFT table:
+###  LIFT table:
 | ID | CAPACITY_KG |
 |----|-------------|
 | 1  | 300         |
 | 2  | 350         |
 
-### 🧍‍♂️ LIFT_PASSENGERS table:
+###  LIFT_PASSENGERS table:
 | PASSENGER_NAME | WEIGHT_KG | LIFT_ID |
 |----------------|-----------|---------|
 | Rahul         | 85        | 1       |
